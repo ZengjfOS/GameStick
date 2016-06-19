@@ -22,9 +22,11 @@ public class MainActivity extends AppCompatActivity {
         /**
          * 设置为横屏
          */
+        /*
         if(getRequestedOrientation()!= ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE){
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
+        */
         super.onResume();
     }
 }
